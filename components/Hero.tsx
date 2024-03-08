@@ -12,6 +12,50 @@ const Hero = () => {
       <button className="lg:px-20 lg:py-4 px-[2.188rem] py-[0.563rem] backdrop-blur-sm bg-[#E2E2E2] bg-opacity-40 rounded-[5px] lg:rounded-[10px]">
         Shop Now
       </button>
+      <div className="bg-dark-teal w-[90%] absolute -bottom-56 md:-bottom-40 lg:-bottom-20 rounded-[20px] grid grid-cols-2  lg:grid-cols-4 place-content-between gap-8 py-[1.2rem] lg:py-[2.375rem] px-4 lg:px-28 text-center">
+        <div className="relative">
+          <div
+            className="border-r-2 lg:pr-24 border-white absolute right-0 top-0 bottom-0 h-full"
+            style={{ marginRight: "-8px" }}
+          ></div>
+          <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-1.5">
+            7
+          </h2>
+          <span className="text-sm md:text-base lg:text-xl">
+            Year <br /> Experience
+          </span>
+        </div>
+        <div className="relative">
+          <div
+            className="lg:border-r-2  lg:pr-24 border-white absolute right-0 top-0 bottom-0 h-full"
+            style={{ marginRight: "-8px" }}
+          ></div>
+          <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-1.5">
+            2
+          </h2>
+          <span className="text-sm md:text-base lg:text-xl">
+            Opened in <br /> the country
+          </span>
+        </div>
+        <div className="relative">
+          <div
+            className="border-r-2  lg:pr-24 border-white absolute right-0 top-0 bottom-0 h-full"
+            style={{ marginRight: "-8px" }}
+          ></div>
+          <h2 className="font-semibold text-2xl md:text-3xl lg:text-4xl mb-1.5">
+            10k+
+          </h2>
+          <span className="text-sm md:text-base lg:text-xl">
+            Furniture <br /> sold
+          </span>
+        </div>
+        <div className="relative">
+          <h2 className="font-semibold text-2xl lg:text-4xl mb-1.5">260+</h2>
+          <span className="text-sm md:text-base lg:text-xl">
+            Variant <br /> Furniture
+          </span>
+        </div>
+      </div>
     </main>
   );
 };
