@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Store = () => {
   return (
-    <div className="mt-[6.25rem] flex-col lg:flex-row flex items-center justify-between mb-[20rem]">
+    <div className="mt-[6.25rem] flex-col lg:flex-row flex items-center justify-between ">
       <section className="px-6 gap-5 mb-6 lg:mb-0 flex lg:flex-col justify-between items-center lg:justify-start lg:items-start  lg:px-[5rem] xl:px-[6.25rem]">
         <h2 className="h2 w-full lg:mb-[5.567rem]">
           New In <br /> Store Now
