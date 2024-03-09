@@ -1,6 +1,7 @@
 import BestChoice from "@/components/BestChoice";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Products from "@/components/Products";
 import Services from "@/components/Services";
 import Store from "@/components/Store";
 import Image from "next/image";
@@ -15,6 +16,7 @@ export default function Home() {
       <Services />
       <Store />
       <BestChoice />
+      <Products />
     </>
   );
 }

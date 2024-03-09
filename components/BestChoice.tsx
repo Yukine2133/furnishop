@@ -3,7 +3,7 @@ import React from "react";
 
 const BestChoice = () => {
   return (
-    <div className="flex px-6 justify-center mt-[8.675rem] mb-[20rem]">
+    <div className="flex px-6 justify-center mt-[8.675rem]">
       <div className="flex flex-col lg:flex-row justify-center items-center max-w-7xl mx-auto">
         <section className="md:flex justify-center items-center lg:justify-start lg:items-start flex-col">
           <h2 className="h2 text-blue-gray mb-9">
