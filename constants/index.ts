@@ -79,3 +79,60 @@ export const products = [
     priceThen: 240.0,
   },
 ];
+
+export const socials = [
+  {
+    id: 1,
+    image: "/footer/instagram.svg",
+  },
+  {
+    id: 2,
+    image: "/footer/facebook.svg",
+  },
+  {
+    id: 3,
+    image: "/footer/twitter.svg",
+  },
+  {
+    id: 4,
+    image: "/footer/github.svg",
+  },
+];
+
+export const footer = [
+  {
+    id: 1,
+    h3: "Our Products",
+    h4: ["The Support Suite", "The Sales Suite", "Support", "Guide"],
+  },
+  {
+    id: 2,
+    h3: "Top Features",
+    h4: [
+      "Ticketing System",
+      "Knowledge Base",
+      "Community Forums",
+      "Help Desk Software",
+    ],
+  },
+  {
+    id: 3,
+    h3: "Resources",
+    h4: ["Product Support", "Request Demo", "Library", "Peoplepower Blog"],
+  },
+  {
+    id: 4,
+    h3: "Company",
+    h4: ["About Us", "Press", "Investors", "Events"],
+  },
+  {
+    id: 5,
+    h3: "Favorite Thing",
+    h4: [
+      "For Enterprise",
+      "For Startups",
+      "For Benchmark",
+      "For Small Business",
+    ],
+  },
+];
