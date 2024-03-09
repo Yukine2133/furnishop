@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Products from "@/components/Products";
 import Services from "@/components/Services";
 import Store from "@/components/Store";
+import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Store />
       <BestChoice />
       <Products />
+      <Testimonials />
     </>
   );
 }
