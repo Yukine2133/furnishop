@@ -44,6 +44,28 @@ const Products = () => {
           </div>
         ))}
       </section>
+      <div className="flex gap-8 items-center mt-[3.125rem]">
+        <Image
+          src="/products/arrow-left.svg"
+          alt="Arrow Left"
+          width={32}
+          height={32}
+          className="shadow-md rounded-full p-1"
+        />
+        <Image
+          src="/products/pagination.svg"
+          alt="Dots"
+          width={110}
+          height={10}
+        />
+        <Image
+          src="/products/arrow-right.svg"
+          alt="Arrow Right"
+          width={32}
+          height={32}
+          className="shadow-md rounded-full p-1"
+        />
+      </div>
     </div>
   );
 };
